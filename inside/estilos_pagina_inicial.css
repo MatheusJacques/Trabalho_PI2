@@ -1,19 +1,23 @@
 #corpo{
-    background-image: linear-gradient(135deg, rgba(75, 7, 246, 0.636), rgba(169, 184, 249, 0.816));
-    width: auto;
-    height: 800px;
+    background: radial-gradient(ellipse at top, rgba(75, 7, 246, 0.815), transparent),
+            radial-gradient(ellipse at bottom, rgba(154, 172, 255, 0.961), transparent);
+    background-position: center;
+    
 }
 
 #conjunto_btn_cab{
+    height: 700px;
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 40px;
     border: none;
     border-radius: 30px;
     padding: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.341);
-    background-image: linear-gradient(195deg, rgba(75, 7, 246, 0.636), rgba(169, 184, 249, 0.816));
+    background-image: linear-gradient(195deg, rgba(75, 7, 246, 0.815), rgba(154, 172, 255, 0.961));
+    
 }
 
 .btn_cab{
